@@ -1,4 +1,12 @@
-Protect your .NET code from reverse engineering.
-Falcon Protector encrypts your methods and hides your real logic — it's only decrypted in memory at runtime. Your app runs exactly the same; your code stays yours.
+⚡ Falcon Protector — a simple .NET code protection tool
 
-https://falconnetprotector.netlify.app/
+I built a protector for .NET assemblies: it encrypts method bodies and hides your real logic, decrypting only in memory at runtime.
+
+Features:
+• Method (IL) + string encryption
+• Runtime key derivation (no stored key)
+• Symbol renaming + anti-debug
+• Single self-contained output — one click
+
+Would love feedback from the community 🙏
+https://falconnetprotector.netlify.app
